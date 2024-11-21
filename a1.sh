@@ -12,3 +12,4 @@ else
     echo "$c is the smallest among $a, $b, and $c"
 fi
 echo " im from stage branch"
+echo " im updating from stage branch"
