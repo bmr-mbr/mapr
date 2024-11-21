@@ -7,3 +7,4 @@
     ping:
 
 ...
+echo " this program is to ping the server in ansible"
