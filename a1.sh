@@ -13,3 +13,5 @@ else
 fi
 echo " im from stage branch
 echo " im from master branch"
+echo " im from stage branch"
+echo " im updating from stage branch"
