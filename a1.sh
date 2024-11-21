@@ -11,4 +11,5 @@ elif [[ $b -le $a && $b -le $c ]]; then
 else
     echo "$c is the smallest among $a, $b, and $c"
 fi
-echo " im from stage branch"
+echo " im from stage branch
+echo " im from master branch"
