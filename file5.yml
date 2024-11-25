@@ -1,0 +1,14 @@
+---
+- hosts: all
+  gather_facts: yes
+  become: true
+  tasks:
+  - name: create the users
+    user:
+     name: "{{items }}"
+     with_items:
+       - mbr
+       - mpr
+       - mar
+       - mrr
+...
