@@ -1,0 +1,13 @@
+---
+- hosts: all
+  gather_facts: no
+  become: true
+  tasks:
+  - name: create a new file
+    file:
+      path: /tmp/mbr.log
+      mode: 0664
+      owner: root
+      group: root
+      state: touch
+...
