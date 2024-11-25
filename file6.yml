@@ -1,0 +1,22 @@
+---
+- hosts: all
+  gather_facts: no
+  become: true
+  vars"
+   name: bharathreddy
+   location: Bangalore
+   number: 987654321
+  tasks:
+  - name: install httpd server
+    yum:
+     name: httpd
+     state: latest
+  - name: copy index.html
+     src: index.hmtl
+     dest: /var/www/html/index.html
+  - name: restart the httpd server
+     service:
+       name: httpd
+       state: latest
+...
+# this code from master branch
